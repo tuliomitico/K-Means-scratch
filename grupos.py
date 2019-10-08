@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.datasets.samples_generator import make_blobs,make_circles
 import pandas as pd
-from meu_kmedia_se_der_certo_saga2 import KMedias
+from Clusters.kmeans import KMedias
 
 iris = pd.read_csv("iris_data.csv",names=["comprimento sepala (cm)","largura sepala (cm)",
          "comprimento petala (cm)","largura petala (cm)","classes"] )
